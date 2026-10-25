@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-utama: #1d3557;
+  --color-aksen: #c1121f;
+  --color-latar: #f1faee;
+}
+
+body {
+  margin: 0;
+  background: var(--color-latar);
+  color: #374151;
+  font-family: Arial, Helvetica, sans-serif;
+}
